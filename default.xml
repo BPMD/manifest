@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 	<manifest>
-	<remote fetch="git://git.yoctoproject.org" name="BP"/>
-	<project remote="BP" revision="3a889ee86db203eedea1c3ae3ad40d512327d637" name="meta-freescale.git" path="sources/meta-freescale"/>
+	<remote fetch="git://github.com/BPMD" name="BP"/>
+	<project remote="BP" revision="6922b80c47b3ca3799c9c44ddabf6b2ab96ff245" name="receipes-fibo.git" path="sources/recipes-fibo"/>
+  	<project remote="BP" revision="9034b27390da547931bf0bf9c872a713972205ff" name="fibo_patch.git" path="sources/recipes-fibo/fibo"/> 	 
 	</manifest>
